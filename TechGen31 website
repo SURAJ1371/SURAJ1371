@@ -1,1 +1,68 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Online Education Platform</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h1>Welcome to [Your Platform Name]</h1>
+    <p>Your gateway to learning success!</p>
+    <button>Start Learning</button>
+  </section>
+
+  <section id="courses">
+    <h2>Our Courses</h2>
+    <div class="course-list">
+      <div class="course">
+        <h3>Course 1</h3>
+        <p>Description of course 1</p>
+      </div>
+      <div class="course">
+        <h3>Course 2</h3>
+        <p>Description of course 2</p>
+      </div>
+      <!-- Add more courses here -->
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Information about your platform, your journey, and your mission.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 [Your Platform Name]. All Rights Reserved.</p>
+    <ul>
+      <li><a href="https://www.youtube.com/yourchannel" target="_blank">YouTube</a></li>
+      <!-- Add social media links -->
+    </ul>
+  </footer>
+  
+  <script src="scripts.js"></script>
+</body>
+</html>
